@@ -6,6 +6,10 @@
  \usepackage{movie15}
  \usepackage{graphicx}
  \usepackage{hyperref}
+ \usepackage{tikz}
+ \usetikzlibrary{shapes.geometric, arrows}
+ \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=blue!15]
+ \tikzstyle{arrow} = [thick,->,>=stealth]
  \hypersetup{
  	colorlinks=true,
  	linkcolor=blue,
@@ -17,7 +21,7 @@
  \title[Karsten Moholt Digital] %optional
  {Data science in predictive maintenance }
  
- \subtitle{A short story}
+ \subtitle{An optimization probblem}
  
  \author[] % (optional, for multiple authors)
  {Yapi Donatien Achou}
@@ -43,8 +47,15 @@
  
 \frame{\titlepage}
  
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
 \begin{frame}
-\frametitle{What is data science}
+\frametitle{Data science is a multidisciplinary field}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.4\linewidth]{datascience2}
@@ -53,26 +64,70 @@
 	%\label{fig:datascience}
 \end{figure}
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}
-%	\frametitle{What is data science}
-%	\begin{figure}[H]
-%		\centering
-%		\includegraphics[width=0.5\linewidth]{datascience}
-%		%\caption{}
-%		%\label{fig:datascience}
-%	\end{figure}
-%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Data science optimizes processes}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth]{google-data-center}
+		%\caption{}
+		%\label{fig:datascience}
+	\end{figure}
+\end{frame}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Data science pipeline}
-\begin{enumerate}
-	\item Process
-	\item Data
-	\item Model
-\end{enumerate}
+	\frametitle{Data science methodology}
+\begin{figure}[H]
+	\begin{center}
+		\begin{tikzpicture}
+\node (process) [startstop] {\textcolor{orange}{Process}};
+\node (data) [startstop, below of=process, yshift=-1cm] {\textcolor{blue}{Data}};
+\node (model) [startstop, below of=data, yshift=-1cm] {Model};
+
+%%% drawing %%%%%%%%%%%%%%%%%%%%%%%
+\draw [arrow] (process) -- (data);
+\draw [arrow] (data) -- (model);
+		\end{tikzpicture}
+	\end{center}
+
+\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Data science methodology: \textcolor{orange}{Process conceptual model}}
+\begin{figure}[H]
+	\centering
+	%\includegraphics[width=0.2\linewidth]{windmil}
+	\includegraphics[width=0.2\linewidth]{gearbox}
+	\includegraphics[width=0.2\linewidth]{bearing}
+	\includegraphics[width=0.2\linewidth]{arrow}
+	\includegraphics[width=0.3\linewidth]{conceptual}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Data science methodology: \textcolor{orange}{Data quality and understanding}}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{data1}
+	\includegraphics[width=0.4\linewidth]{data2}
+	\includegraphics[width=0.4\linewidth]{data3}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Data science methodology: \textcolor{orange}{Model}}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{model1}
+\end{figure}
+\begin{enumerate}
+	\item Defect diagnosis
+	\item Asset remaining useful life estimation
+\end{enumerate}
+\end{frame}
 %\begin{frame}
 %	\frametitle{Goal of data science in Predictive maintenance}
 %	\begin{figure}[H]
@@ -84,24 +139,31 @@
 %\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-	\frametitle{Data science pipeline}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\linewidth]{pipeline}
-		%\caption{}
-		%\label{fig:datascience}
-	\end{figure}
-\end{frame}
+%\begin{frame}
+%	\frametitle{Data science pipeline}
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[width=1.1\linewidth]{pipeline}
+%		%\caption{}
+%		%\label{fig:datascience}
+%	\end{figure}
+%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Data science in predictive maintenance: Data engineering}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.55\linewidth]{etl2}
-		%\caption{}
-		%\label{fig:datascience2}
-	\end{figure}
+	\frametitle{Data science for maintenance optimization}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.5\linewidth]{optimization}
+			%\caption{}
+			%\label{fig:datascience}
+		\end{figure}
+	\begin{itemize}
+		\item Part ordering
+		\item Maintenance planing
+		\item Production optimization
+		\item Process optimization
+		\item
+	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -145,32 +207,14 @@
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
-	\frametitle{Data science in predictive maintenance: Complex machines}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.5\linewidth]{topdrive}
-		%\caption{}
-		%\label{fig:datascience}
-	\end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-	\frametitle{Data science in predictive maintenance: Signal processing method}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.4\linewidth]{ft}
-		\includegraphics[width=0.4\linewidth]{bpfo}
-		%\caption{}
-		%\label{fig:datascience}
-	\end{figure}
-\end{frame}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Data science in predictive maintenance: Signal processing method}
+	\frametitle{Data science in predictive maintenance: Machine health index}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{emd-stl}
+		\includegraphics[width=0.5\linewidth]{health_plot}
 		%\includegraphics[width=0.4\linewidth]{bpfo}
 		%\caption{}
 		%\label{fig:datascience}
@@ -184,17 +228,17 @@
 	\frametitle{Data science in predictive maintenance: Pattern recognition}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{svm}
+		\includegraphics[width=0.5\linewidth]{svm}
 		%\caption{}
 		%\label{fig:datascience}
 	\end{figure}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-		\frametitle{Skaiwatch}
-		\href{http://skaiwatch.herokuapp.com/dashboardapp/}{Demo}
-\end{frame}
+%\begin{frame}
+%		\frametitle{Skaiwatch}
+%		\href{http://skaiwatch.herokuapp.com/dashboardapp/}{Demo}
+%\end{frame}
 
 \end{document}
 
