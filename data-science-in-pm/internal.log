@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  20 AUG 2019 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  20 AUG 2019 15:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1045,90 +1045,90 @@ Package pdftex.def Info: km-logo.png  used on input line 130.
  [7
 
  <./model1.jpg>]
-<optimization.jpg, id=225, 587.19376pt x 273.02pt>
-File: optimization.jpg Graphic file (type jpg)
-<use optimization.jpg>
-Package pdftex.def Info: optimization.jpg  used on input line 167.
-(pdftex.def)             Requested size: 153.64493pt x 71.4376pt.
+<motor1.jpg, id=225, 259.97125pt x 194.7275pt>
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: motor1.jpg Graphic file (type jpg)
+<use motor1.jpg>
+Package pdftex.def Info: motor1.jpg  used on input line 157.
+(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 167.
+Package pdftex.def Info: km-logo.png  used on input line 157.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [8
 
- <./optimization.jpg>]
-<motor1.jpg, id=253, 259.97125pt x 194.7275pt>
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 207.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+ <./motor1.jpg>]
+<optimization.jpg, id=253, 587.19376pt x 273.02pt>
+File: optimization.jpg Graphic file (type jpg)
+<use optimization.jpg>
+Package pdftex.def Info: optimization.jpg  used on input line 176.
+(pdftex.def)             Requested size: 153.64493pt x 71.4376pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 207.
+Package pdftex.def Info: km-logo.png  used on input line 176.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [9
 
- <./motor1.jpg>]
+ <./optimization.jpg>]
 <health_plot.png, id=280, 462.528pt x 346.896pt>
 File: health_plot.png Graphic file (type png)
 <use health_plot.png>
-Package pdftex.def Info: health_plot.png  used on input line 222.
+Package pdftex.def Info: health_plot.png  used on input line 206.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 222.
+Package pdftex.def Info: km-logo.png  used on input line 206.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [10
 
@@ -1136,11 +1136,11 @@ Package pdftex.def Info: km-logo.png  used on input line 222.
 <svm.png, id=307, 462.528pt x 346.896pt>
 File: svm.png Graphic file (type png)
 <use svm.png>
-Package pdftex.def Info: svm.png  used on input line 235.
+Package pdftex.def Info: svm.png  used on input line 219.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 235.
+Package pdftex.def Info: km-logo.png  used on input line 219.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [11
 
@@ -1161,11 +1161,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
 (./internal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `internal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1180,7 +1180,7 @@ Here is how much of TeX's memory you used:
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on internal.pdf (11 pages, 2391149 bytes).
+Output written on internal.pdf (11 pages, 2391157 bytes).
 PDF statistics:
  352 PDF objects out of 1000 (max. 8388607)
  300 compressed objects within 3 object streams
