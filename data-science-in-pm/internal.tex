@@ -8,7 +8,7 @@
  \usepackage{hyperref}
  \usepackage{tikz}
  \usetikzlibrary{shapes.geometric, arrows}
- \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=blue!15]
+ \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=blue, fill=blue!15]
  \tikzstyle{arrow} = [thick,->,>=stealth]
  \hypersetup{
  	colorlinks=true,
@@ -18,7 +18,7 @@
  }
  
  \urlstyle{same}
- \title[Karsten Moholt Digital] %optional
+ \title[\textcolor{orange}{Karsten Moholt Digital}] %optional
  {Data science in predictive maintenance }
  
  \subtitle{An optimization probblem}
@@ -78,13 +78,13 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Data science methodology}
+	\frametitle{Data science methodology: \textcolor{orange}{A data driven modelling}}
 \begin{figure}[H]
 	\begin{center}
 		\begin{tikzpicture}
-\node (process) [startstop] {\textcolor{orange}{Process}};
+\node (process) [startstop] {\textcolor{blue}{Process}};
 \node (data) [startstop, below of=process, yshift=-1cm] {\textcolor{blue}{Data}};
-\node (model) [startstop, below of=data, yshift=-1cm] {\textcolor{green}{Model}};
+\node (model) [startstop, below of=data, yshift=-1cm] {\textcolor{blue}{Model}};
 
 %%% drawing %%%%%%%%%%%%%%%%%%%%%%%
 \draw [arrow] (process) -- (data);
@@ -98,12 +98,12 @@
 \begin{frame}
 	\frametitle{Data science methodology: \textcolor{orange}{Process conceptual model}}
 \begin{figure}[H]
-	\centering
+	\hspace*{-2cm} 
 	%\includegraphics[width=0.2\linewidth]{windmil}
-	\includegraphics[width=0.2\linewidth]{gearbox}
-	\includegraphics[width=0.2\linewidth]{bearing}
-	\includegraphics[width=0.2\linewidth]{arrow}
-	\includegraphics[width=0.3\linewidth]{conceptual}
+	\includegraphics[width=0.8\linewidth]{thruster}
+	%\includegraphics[width=0.2\linewidth]{bearing}
+	%\includegraphics[width=0.1\linewidth]{arrow}
+	%\includegraphics[width=0.15\linewidth]{conceptual}
 \end{figure}
 \end{frame}
 
@@ -219,10 +219,14 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}
-%		\frametitle{Skaiwatch}
-%		\href{http://skaiwatch.herokuapp.com/dashboardapp/}{Demo}
-%\end{frame}
+\begin{frame}
+		\frametitle{What else?}
+			\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\linewidth]{question}
+				\end{figure}
+		
+\end{frame}
 
 \end{document}
 
