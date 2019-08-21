@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  21 AUG 2019 10:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  21 AUG 2019 11:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1073,40 +1073,63 @@ Package pdftex.def Info: km-logo.png  used on input line 176.
  [9
 
  <./optimization.jpg>]
-<health_plot.png, id=274, 462.528pt x 346.896pt>
-File: health_plot.png Graphic file (type png)
-<use health_plot.png>
-Package pdftex.def Info: health_plot.png  used on input line 206.
-(pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
+<experiment.png, id=274, 629.35126pt x 298.11375pt>
+File: experiment.png Graphic file (type png)
+<use experiment.png>
+Package pdftex.def Info: experiment.png  used on input line 189.
+(pdftex.def)             Requested size: 184.3758pt x 87.33324pt.
+<arrow.png, id=275, 383.73451pt x 292.27779pt>
+File: arrow.png Graphic file (type png)
+<use arrow.png>
+Package pdftex.def Info: arrow.png  used on input line 189.
+(pdftex.def)             Requested size: 15.36542pt x 11.70248pt.
+<data.png, id=276, 462.528pt x 346.896pt>
+File: data.png Graphic file (type png)
+<use data.png>
+Package pdftex.def Info: data.png  used on input line 189.
+(pdftex.def)             Requested size: 92.1879pt x 69.13977pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 206.
+Package pdftex.def Info: km-logo.png  used on input line 189.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [10
 
- <./health_plot.png>]
-<svm.png, id=302, 462.528pt x 346.896pt>
-File: svm.png Graphic file (type png)
-<use svm.png>
-Package pdftex.def Info: svm.png  used on input line 219.
+ <./experiment.png> <./arrow.png> <./data.png>]
+<health_plot.png, id=306, 462.528pt x 346.896pt>
+File: health_plot.png Graphic file (type png)
+<use health_plot.png>
+Package pdftex.def Info: health_plot.png  used on input line 208.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 219.
+Package pdftex.def Info: km-logo.png  used on input line 208.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [11
 
+ <./health_plot.png>]
+<svm.png, id=334, 462.528pt x 346.896pt>
+File: svm.png Graphic file (type png)
+<use svm.png>
+Package pdftex.def Info: svm.png  used on input line 221.
+(pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
+File: km-logo.png Graphic file (type png)
+<use km-logo.png>
+Package pdftex.def Info: km-logo.png  used on input line 221.
+(pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
+
+[12
+
  <./svm.png>]
-<question.jpg, id=329, 462.528pt x 270.5307pt>
+<question.jpg, id=362, 462.528pt x 270.5307pt>
 File: question.jpg Graphic file (type jpg)
 <use question.jpg>
-Package pdftex.def Info: question.jpg  used on input line 229.
+Package pdftex.def Info: question.jpg  used on input line 231.
 (pdftex.def)             Requested size: 215.10196pt x 125.81198pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
-Package pdftex.def Info: km-logo.png  used on input line 229.
+Package pdftex.def Info: km-logo.png  used on input line 231.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
- [12
+ [13
 
  <./question.jpg>]
 \tf@nav=\write6
@@ -1125,29 +1148,29 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
 (./internal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `internal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21783 strings out of 492609
- 433214 string characters out of 6132818
+ 21802 strings out of 492609
+ 433461 string characters out of 6132818
  545301 words of memory out of 5000000
- 25212 multiletter control sequences out of 15000+600000
+ 25226 multiletter control sequences out of 15000+600000
  5452 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,56p,802b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on internal.pdf (12 pages, 3292869 bytes).
+Output written on internal.pdf (13 pages, 3386555 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 352 compressed objects within 4 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
