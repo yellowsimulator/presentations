@@ -1,0 +1,95 @@
+
+% !TeX spellcheck = en_GB
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+ \usetheme{antibes}
+ \usepackage{movie15}
+ \usepackage{graphicx}
+ \usepackage{hyperref}
+ \usepackage{tikz}
+ \usetikzlibrary{shapes.geometric, arrows}
+ \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=blue, fill=blue!15]
+ \tikzstyle{arrow} = [thick,->,>=stealth]
+ \hypersetup{
+ 	colorlinks=true,
+ 	linkcolor=blue,
+ 	filecolor=magenta,      
+ 	urlcolor=cyan,
+ }
+ 
+ \urlstyle{same}
+ \title[\textcolor{orange}{Karsten Moholt Digital}] %optional
+ {Finite element method for predictive maintenance}
+ 
+ %\subtitle{An optimization probblem}
+ 
+ \author[] % (optional, for multiple authors)
+ {}
+ 
+% \institute[VFU] % (optional)
+% {
+% 	\inst{1}%
+% 	Faculty of Physics\\
+% 	Very Famous University
+% 	\and
+% 	\inst{2}%
+% 	Faculty of Chemistry\\
+% 	Very Famous University
+% }
+ 
+ %\date[VLC 2013] % (optional)
+ %{Very Large Conference, April 2013}
+ 
+ \logo{\includegraphics[height=1.5cm]{km-logo.png}}
+ 
+ 
+\begin{document}
+ 
+\frame{\titlepage}
+ 
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Finite element method for defect propagation}
+\begin{figure}[H]
+	\begin{center}
+		\begin{tikzpicture}
+\node (machine) [startstop] {\textcolor{blue}{Machine}};
+\node (mesh) [startstop, below of=machine, yshift=-0.5cm] {\textcolor{blue}{Mesh}};
+\node (solver) [startstop, below of=mesh, yshift=-0.5cm] {\textcolor{orange}{Finite element solver}};
+\node (prediction) [startstop, below of=solver, yshift=-0.5cm] {\textcolor{blue}{Prediction}};
+
+%%% drawing %%%%%%%%%%%%%%%%%%%%%%%
+\draw [arrow] (machine) -- (mesh);
+\draw [arrow] (mesh) -- (solver);
+\draw [arrow] (solver) -- (prediction);
+		\end{tikzpicture}
+	\end{center}
+
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+	\frametitle{What is a finite element solver}
+
+		
+	\begin{itemize}
+		\item A \textcolor{orange}{finite element solver} is a software that can be used for pressure, temperature and wear prediction.
+		\item It takes a mesh as input
+		\item It uses a mathematical model to make prediction based on the mesh
+	\end{itemize}
+\end{frame}
+\end{document}
+
