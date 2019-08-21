@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  21 AUG 2019 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  21 AUG 2019 10:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1030,71 +1030,38 @@ Package pdftex.def Info: km-logo.png  used on input line 130.
  [7
 
  <./model1.jpg>]
-<motor1.jpg, id=220, 259.97125pt x 194.7275pt>
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
-File: motor1.jpg Graphic file (type jpg)
-<use motor1.jpg>
-Package pdftex.def Info: motor1.jpg  used on input line 157.
-(pdftex.def)             Requested size: 61.45703pt x 46.03134pt.
+File: thruster.png Graphic file (type png)
+<use thruster.png>
+Package pdftex.def Info: thruster.png  used on input line 157.
+(pdftex.def)             Requested size: 92.1879pt x 55.48988pt.
+File: thruster.png Graphic file (type png)
+<use thruster.png>
+Package pdftex.def Info: thruster.png  used on input line 157.
+(pdftex.def)             Requested size: 92.1879pt x 55.48988pt.
+File: thruster.png Graphic file (type png)
+<use thruster.png>
+Package pdftex.def Info: thruster.png  used on input line 157.
+(pdftex.def)             Requested size: 92.1879pt x 55.48988pt.
+File: thruster.png Graphic file (type png)
+<use thruster.png>
+Package pdftex.def Info: thruster.png  used on input line 157.
+(pdftex.def)             Requested size: 92.1879pt x 55.48988pt.
+File: thruster.png Graphic file (type png)
+<use thruster.png>
+Package pdftex.def Info: thruster.png  used on input line 157.
+(pdftex.def)             Requested size: 92.1879pt x 55.48988pt.
+File: thruster.png Graphic file (type png)
+<use thruster.png>
+Package pdftex.def Info: thruster.png  used on input line 157.
+(pdftex.def)             Requested size: 92.1879pt x 55.48988pt.
 File: km-logo.png Graphic file (type png)
 <use km-logo.png>
 Package pdftex.def Info: km-logo.png  used on input line 157.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
  [8
 
- <./motor1.jpg>]
-<optimization.jpg, id=248, 587.19376pt x 273.02pt>
+]
+<optimization.jpg, id=247, 587.19376pt x 273.02pt>
 File: optimization.jpg Graphic file (type jpg)
 <use optimization.jpg>
 Package pdftex.def Info: optimization.jpg  used on input line 176.
@@ -1103,11 +1070,10 @@ File: km-logo.png Graphic file (type png)
 <use km-logo.png>
 Package pdftex.def Info: km-logo.png  used on input line 176.
 (pdftex.def)             Requested size: 111.72879pt x 42.67912pt.
-
-[9
+ [9
 
  <./optimization.jpg>]
-<health_plot.png, id=275, 462.528pt x 346.896pt>
+<health_plot.png, id=274, 462.528pt x 346.896pt>
 File: health_plot.png Graphic file (type png)
 <use health_plot.png>
 Package pdftex.def Info: health_plot.png  used on input line 206.
@@ -1119,7 +1085,7 @@ Package pdftex.def Info: km-logo.png  used on input line 206.
  [10
 
  <./health_plot.png>]
-<svm.png, id=303, 462.528pt x 346.896pt>
+<svm.png, id=302, 462.528pt x 346.896pt>
 File: svm.png Graphic file (type png)
 <use svm.png>
 Package pdftex.def Info: svm.png  used on input line 219.
@@ -1131,7 +1097,7 @@ Package pdftex.def Info: km-logo.png  used on input line 219.
  [11
 
  <./svm.png>]
-<question.jpg, id=330, 462.528pt x 270.5307pt>
+<question.jpg, id=329, 462.528pt x 270.5307pt>
 File: question.jpg Graphic file (type jpg)
 <use question.jpg>
 Package pdftex.def Info: question.jpg  used on input line 229.
@@ -1168,20 +1134,20 @@ Package rerunfilecheck Info: File `internal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21788 strings out of 492609
- 433283 string characters out of 6132818
- 546301 words of memory out of 5000000
- 25216 multiletter control sequences out of 15000+600000
+ 21783 strings out of 492609
+ 433214 string characters out of 6132818
+ 545301 words of memory out of 5000000
+ 25212 multiletter control sequences out of 15000+600000
  5452 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,56p,802b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on internal.pdf (12 pages, 3301273 bytes).
+Output written on internal.pdf (12 pages, 3292869 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
+ 375 PDF objects out of 1000 (max. 8388607)
  326 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
